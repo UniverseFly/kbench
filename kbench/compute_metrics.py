@@ -46,7 +46,7 @@ def main(
 
     # Avg similarity
     avg_similarity = sum(results["edit_similarity"]) / len(results)
-    print(f"Avg edit similarity: {avg_similarity:.4f}")
+    print(f"ES: {avg_similarity:.4f}")
 
     print()
 
@@ -55,7 +55,7 @@ def main(
     for repo_name in all_repo_names:
         repo_results = results.filter(lambda x: x["repo_id"] == repo_name)
         avg_similarity = sum(repo_results["edit_similarity"]) / len(repo_results)
-        print(f"[{repo_name}] Avg edit similarity: {avg_similarity:.4f}")
+        print(f"[{repo_name} ({(len(repo_results))})] ES: {avg_similarity:.4f}")
 
     print()
 
@@ -64,7 +64,7 @@ def main(
     for part in all_parts:
         part_results = results.filter(lambda x: x["part"] == part)
         avg_similarity = sum(part_results["edit_similarity"]) / len(part_results)
-        print(f"[{part}] Avg edit similarity: {avg_similarity:.4f}")
+        print(f"[{part} ({len(part_results)})] ES: {avg_similarity:.4f}")
 
 
 if __name__ == "__main__":
