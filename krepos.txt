@@ -1,0 +1,17 @@
+runtimeverification/python-semantics
+runtimeverification/wasm-semantics
+runtimeverification/k
+runtimeverification/evm-semantics
+runtimeverification/plutus-core-semantics
+runtimeverification/iele-semantics
+runtimeverification/solidity-semantics
+runtimeverification/erc20-semantics
+runtimeverification/erc777-semantics
+runtimeverification/michelson-semantics
+runtimeverification/mx-semantics
+runtimeverification/avm-semantics
+runtimeverification/mir-semantics
+runtimeverification/mir-semantics-compiletest
+runtimeverification/imp-semantics
+runtimeverification/yul-semantics-old
+runtimeverification/riscv-semantics

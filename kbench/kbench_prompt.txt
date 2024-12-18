@@ -1,0 +1,11 @@
+K is a rewrite-based executable semantic framework. Your will be given a part of a K code file and your task is to write a complete version of the file.
+
+Here is the {part} part of the K code file:
+
+```k
+{context}
+```
+
+Write the complete K code file and wrap the final code between ```k and ```.
+
+Hint: the complete K code file has {num_lines} lines.
